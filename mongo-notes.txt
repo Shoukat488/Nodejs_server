@@ -1,0 +1,14 @@
+starting mongodb (ubuntu)
+sudo service mongod start
+
+Verify that MongoDB has started successfully:
+sudo service mongod status
+
+Restart MongoDB:
+sudo service mongod restart
+
+Stop MongoDB:
+sudo service mongod stop
+
+---------------------
+const url = "mongodb://localhost:27017/database-name";
